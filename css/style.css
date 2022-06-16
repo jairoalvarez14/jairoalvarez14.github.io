@@ -1,0 +1,70 @@
+html {
+    background-color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+header {
+    background-color: #7A4135;
+    color: #dcdcdc;
+    padding: 20px;
+}
+
+header a h1 {
+    display: inline;
+    font-size: 3rem;
+}
+
+header a h2 {
+    display: inline;
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+header p {
+    font-size: 1.4rem;
+    opacity: .7;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    padding: 2px 20px;
+}
+
+input, textarea {
+    padding: 5px 0;
+    outline: none;
+    border: none;
+    background-color: rgb(250, 235, 215);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.field {
+    border-bottom: solid 1px #000;
+}
+
+.field:focus {
+    border-color: #7A4135;
+}
